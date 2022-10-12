@@ -23,3 +23,14 @@ body{
     margin-right: 30px;
     text-align: center;
 }
+
+.nav {
+    background-color: antiquewhite;
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+
+.judul {
+    margin-left: 200px;
+}
