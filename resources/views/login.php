@@ -17,7 +17,7 @@ if(isset($_POST['username'])){
     $result=mysql_query($sql);
 
     if(mysql_num_rows($result)==1){
-        echo "You Have Successfully Log In";
+        echo "Anda Berhasil Login";
         exit();
     }
     else{
