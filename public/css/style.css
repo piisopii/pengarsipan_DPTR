@@ -1,8 +1,9 @@
 body{
     margin: 0 auto;
-    background-image: url("../image/technology.jpg");
+    background-color: azure;
     background-repeat: no-repeat;
     background-size: 100% 720px;
+    font-family: sans-serif;
 }
 
 .container{
@@ -27,10 +28,32 @@ body{
 .nav {
     background-color: antiquewhite;
     background-size: cover;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
     font-size: medium;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+/* .container {
+    margin-left: 15px;
+    text-decoration: italic;
 }
 
 .judul {
     margin-left: 200px;
 }
+
+.input-group-rounded {
+    margin-left: 400px;
+} */

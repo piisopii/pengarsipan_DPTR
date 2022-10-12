@@ -14,7 +14,15 @@
 </head>
 <body>
   <nav>
-  <div class="nav">
+    <div class="logo">
+    <marquee style="font-size: 60px;">Dinas Pertanahan dan Tata Ruang DIY</marquee>
+    </div>
+
+    <ul>
+      <li><a href="">Register</a></li>
+      <li><a href="">Logout</a></li>
+    </ul>
+  <!-- <div class="nav">
         <div class="logo">
             <img src="">
         </div>
@@ -23,7 +31,7 @@
             <p>Jl. Tentara Rakyat Mataram No.4, Bumijo, Kec. Jetis, Kota Yogyakarta, Saerah Istimewa Yogyakarta 55231</p>
             <p>No. Hp || Email???</p><br><br>
         </div>
-    </div>
+    </div> -->
   </nav>
     <div class="container">
         <img src="{{asset('foto/login.png')}}"/>
